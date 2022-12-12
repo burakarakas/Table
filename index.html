@@ -1,0 +1,76 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Veriler</h1>
+    <div class="container">
+        <div id="inputs">
+            <label>AD</label>
+            <input type="text" id="ad">
+            <label>soyad</label>
+            <input type="text" id="soyad">
+            <label>mail</label>
+            <input type="text"  id="mail">
+            <label>cinsiyet</label>
+            <input type="text"  id="cinsiyet">
+            <label>id</label>
+            <input type="text"  id="id">
+        </div>
+        <div class="buttons">
+            <button id="ekle">ekle</button> 
+            <button id="sil">sil</button>
+            <button id="edit">düzenle</button>
+        </div>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>ad</th>
+                <th>soyad</th>
+                <th>mail</th>
+                <th>cinsiyet</th>
+                <th>id</th>
+            </tr>
+        </thead>
+        
+            <tr>
+            <td data-label="ad">burak</td>
+            <td data-label="soyad">kara</td>
+            <td data-label="mail">sad@sad.com</td>
+            <td data-label="cinsiyet">E</td>
+            <td data-label="id">1</td>
+        </tr>
+        <tr>
+            <td data-label="ad">emre</td>
+            <td data-label="soyad">deniz</td>
+            <td data-label="mail">emre@sad.com</td>
+            <td data-label="cinsiyet">E</td>
+            <td data-label="id">2</td>
+        </tr>
+        <tr><td data-label="ad">nadi</td>
+            <td data-label="soyad">yılmaz</td>
+            <td data-label="mail">nadi@sad.com</td>
+            <td data-label="cinsiyet">E</td>
+            <td data-label="id">3</td>
+        </tr>
+        <tr>
+            <td data-label="ad">ayse</td>
+            <td data-label="soyad">sarı</td>
+            <td data-label="mail">ayse@sad.com</td>
+            <td data-label="cinsiyet">K</td>
+            <td data-label="id">4</td>
+        </tr>
+        
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
